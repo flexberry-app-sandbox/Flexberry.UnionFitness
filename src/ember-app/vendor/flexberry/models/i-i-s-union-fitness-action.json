@@ -1,0 +1,15 @@
+﻿{
+  "name": "IISUnionFitnessAction",
+  "modelName": "i-i-s-union-fitness-action",
+  "className": "Action",
+  "nameSpace": "IIS.UnionFitness",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

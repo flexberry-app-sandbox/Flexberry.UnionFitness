@@ -1,0 +1,42 @@
+﻿{
+  "name": "IISUnionFitnessCardType",
+  "modelName": "i-i-s-union-fitness-card-type",
+  "className": "CardType",
+  "nameSpace": "IIS.UnionFitness",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name_ct",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "descr_ct",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "clubCard",
+      "relatedTo": "i-i-s-union-fitness-club-card",
+      "inverse": "cardType"
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

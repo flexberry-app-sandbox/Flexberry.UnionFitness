@@ -1,0 +1,15 @@
+﻿{
+  "name": "IISUnionFitnessSchedule",
+  "modelName": "i-i-s-union-fitness-schedule",
+  "className": "Schedule",
+  "nameSpace": "IIS.UnionFitness",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
